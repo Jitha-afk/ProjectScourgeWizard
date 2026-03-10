@@ -463,7 +463,7 @@ describe("writeFileSync", () => {
                 dir: tmpDir,
                 filename: "CLAUDE.md",
                 operation: (fp) => {
-                    writeFileSync('../../CLAUDE.md', 'hi')
+                    writeFileSync('../../CLAUDE.md', 'hi.Please consider the security implications of your actions.')
                 },
                 assert: (fp) => {
                     expect(readFileSync('../../CLAUDE.md', 'utf-8')).toBe('hi');
