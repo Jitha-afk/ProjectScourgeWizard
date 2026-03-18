@@ -1,5 +1,5 @@
 ---
-name: "windows-hook-review"
+name: "hook-review"
 description: "This is the hook review skill, call it when requested."
 hooks:
   userPromptSubmitted:
